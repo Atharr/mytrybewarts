@@ -25,6 +25,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Como desenvolver](#como-desenvolver)
   - [Observações técnicas](#observações-técnicas)
   - [ESLint e Stylelint](#eslint-e-stylelint)
+  - [Cypress](#cypress)
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [Lista de requisitos obrigatórios:](#lista-de-requisitos-obrigatórios)
     - [1. Crie uma barra verde na parte superior da página](#1-crie-uma-barra-verde-na-parte-superior-da-página)
@@ -92,15 +93,15 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 ## Data de entrega
 
   - Projeto em dupla.
-  - Serão `X` dias de projeto.
-  - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
+  - Será `1` dia de projeto.
+  - Data de entrega para avaliação final do projeto: `23/06/2021 - 14:00h`.
 
 # Instruções para entregar seu projeto
 
 ### Antes de começar a desenvolver:
 
 #### Esse projeto tem um fluxo um pouco diferente dos outros. Os passos 1 a 6 devem ser feitos por uma pessoa da dupla (a que vai criar a branch de trabalho). A outra pessoa deve fazer apenas o passo 1 e depois mudar para a branch criada pela primeira pessoa.
-  Exemplo:  `git checkout joaozinho-trybewarts-project`
+  Exemplo:  `git checkout joao-silva-trybewarts-project`
 
 1. Clone o repositório
   * `git clone git@github.com:betrybe/sd-013-a-project-trybewarts.git`.
@@ -113,12 +114,12 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
   * Se não estiver, mude para a branch `master`
     * Exemplo: `git checkout master`
   * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
-    * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    * Exemplo: `git checkout -b joaozinho-trybewarts-project`
+    * Você deve criar uma branch no seguinte formato: `nome-sobrenome-nome-do-projeto`
+    * Exemplo: `git checkout -b joao-silva-trybewarts-project`
 
 3. Crie na raiz do projeto os arquivos que você precisará desenvolver:
   * Verifique que você está na raiz do projeto
-    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-013-a-project-trybewarts**_
+    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joao/code/**sd-013-a-project-trybewarts**_
   * Crie os arquivos index.html, style.css e script.js
     * Exemplo: `touch index.html style.css script.js`
 
@@ -135,7 +136,7 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
         * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
 5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin joaozinho-trybewarts-project`
+  * Usando o exemplo anterior: `git push -u origin joao-silva-trybewarts-project`
 
 6. Crie um novo `Pull Request` _(PR)_
   * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-013-a-project-trybewarts/pulls)
@@ -234,12 +235,27 @@ Em caso de dúvidas, confira o material do course sobre [ESLint e Stylelint](htt
 
 ## Cypress
 
-Cypress é uma ferramenta de teste de front-end desenvolvida para a web.
-Você pode rodar o cypress localmente para verificar se seus requisitos estão passando, para isso execute o seguinte comando:
+Você pode rodar o cypress localmente para verificar se seus requisitos estão passando, para isso execute o um dos seguintes comandos:
+
+Para executar os testes apenas no terminal:
+
+```bash
+npm test
+```
+
+Para executar os testes e vê-los rodando em uma janela de navegador:
+
+```bash
+npm run cypress:open
+```
+
+***ou***
 
 ```bash
 npx cypress open
 ```
+
+Após executar um dos dois comandos acima, será aberta uma janela de navegador e então basta clicar no nome do arquivo de teste que quiser executar (project.spec.js), ou para executar todos os testes clique em Run all specs
 
 Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) vídeo 😉🎙
 
@@ -581,7 +597,7 @@ Esses requisitos **não** são verificáveis pelo avaliador automático.
 A outra pessoa integrante da dupla deve criar uma nova `branch` a partir da `branch` de trabalho _(a primeira branch criada pela equipe)_.
 Exemplo: 
 1. Use `git branch` para ter certeza de que está na branch de trabalho;
-2. Caso não esteja use `git checkout joaozinho-trybewarts-project`  para trocar de `branch`;
+2. Caso não esteja use `git checkout joao-silva-trybewarts-project`  para trocar de `branch`;
 3. User `git checkout -b mariazinha-trybewarts-project` para criar uma nova branch a partir da branch anterior (`joaozinnho-trybewarts-project`);
 
 
