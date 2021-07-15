@@ -106,7 +106,7 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 1. Clone o repositório
   * `git clone git@github.com:Atharr/mytrybewarts.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-013-a-project-trybewarts`
+    * `cd mytrybewarts`
 2. Instale as dependências e inicialize o projeto
   * Instale as dependências:
     * `npm install`
