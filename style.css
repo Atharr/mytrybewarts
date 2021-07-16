@@ -10,6 +10,10 @@
   font-weight: 900;
 }
 
+main {
+  display: flex;
+}
+
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
@@ -24,4 +28,9 @@
 
 .trybewarts-login {
   display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
 }
