@@ -1,3 +1,15 @@
+@font-face {
+  font-family: Inknut Antiqua;
+  font-style: normal;
+  font-weight: 900;
+  src: url('https://fonts.gstatic.com/s/inknutantiqua/v9/Y4GSYax7VC4ot_qNB4nYpBdaKUUF4J3BRw.woff2') format('woff2');
+}
+
+* {
+  font-family: Inknut Antiqua, Times, serif;
+  font-weight: 900;
+}
+
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
