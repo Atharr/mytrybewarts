@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt=br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header">
-        <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="">
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="">
+            <form class="trybewarts-login">
+                <fieldset>
+                    <legend>Login</legend>
+                    <label for="">Email</label>
+                    <input id="email" type="email" name='email'>
+                    <label for="">Senha</label>
+                    <input id="password" type="password" name='password'>
+                    <button id="button" type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </header>
 
-
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
