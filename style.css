@@ -34,24 +34,31 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
-  align-self: center;
   flex-direction: column;
 }
 
 #trybewarts-forms-logo {
   display: flex;
   align-self: auto;
-  width: 675px;
+  height: 500px;
 }
 
 #input-name-and-lastname { /* Requisito 10 */
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
 #input-email-and-house { /* Requisito 11 */
   display: flex;
   flex-direction: row;
-  justify-content: center;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+#rate {
+  display: flex;
+  flex-direction: row;
 }
