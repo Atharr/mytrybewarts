@@ -13,6 +13,7 @@
 .trybewarts-header-logo {
   display: flex;
   width: 50px;
+  box-sizing: border-box;
 }
 
 .trybewarts-header-title {
@@ -23,8 +24,7 @@
 .trybewarts-login {
   display: flex;
   align-self: center;
-  justify-content: space-around;
-  flex-direction: column;
+  justify-content: space-between;
 }
 
 main {
