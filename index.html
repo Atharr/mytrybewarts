@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inknut Antiqua">
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
   <title>:: Projeto Trybewarts ::</title>
@@ -20,16 +21,12 @@
   </header>
   <main>
     <form id="evaluation-form" action="">
-      <label for="input-name">
+      <div>
         <input type="text" placeholder="Nome" id="input-name">
-      </label>
-      <label for="input-lastname">
         <input type="text" placeholder="Sobrenome" id="input-lastname">
-      </label>
-      <label for="input-email">
-        <input type="text" placeholder="Email" id="input-email">
-      </label>
-      <p>Casa</p>
+      </div>
+      <input type="email" placeholder="Email" id="input-email">
+      <label for="house">Casa</label>
       <select name="casas" id="house">
         <option value="Gitnória" id="gitnoria-house">Gitnória</option>
         <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
@@ -37,9 +34,9 @@
         <option value="Pytherina" id="pytherina-house">Pytherina</option>
       </select>
     </form>
-    <section>
+    <aside>
       <img src="images/trybewarts-colored.svg" alt="Trybewarts form logo" id="trybewarts-forms-logo">
-    </section>
+    </aside>
   </main>
 </body>
 </html>

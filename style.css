@@ -1,29 +1,26 @@
-@font-face {
-  font-family: Inknut Antiqua;
-  font-style: normal;
-  font-weight: 900;
-  src: url('https://fonts.gstatic.com/s/inknutantiqua/v9/Y4GSYax7VC4ot_qNB4nYpBdaKUUF4J3BRw.woff2') format('woff2');
-}
-
 * {
   font-family: Inknut Antiqua, Times, serif;
   font-weight: 900;
+  padding: 0;
+  margin: 0;
 }
 
 main {
   display: flex;
+  padding: 2% 5%;
 }
 
 .header {
   background-color: rgb(50, 167, 145);
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 5% 0 0;
 }
 
 .trybewarts-header-logo {
-  width: 7%;
-  height: 7%;
+  width: 50px;
 }
 
 .trybewarts-login {
