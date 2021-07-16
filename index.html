@@ -29,9 +29,9 @@
       <div id='input-name-and-lastname'> <!--Requisito 10-->
       <input type="text" maxlength="30" placeholder="Nome" id='input-name'> <!--Requisito 8-->
       <input type="text" maxlength="30" placeholder="Sobrenome" id='input-lastname'> <!--/Requisito 8-->
-      </div>
+      </div> <!--/Requisito 10-->
       
-      <div id='input-email-and-house'>
+      <div id='input-email-and-house'> <!--Requisito 11-->
       <input type="email" placeholder="Email" id='input-email'>
       <select name="casa" id="house"> <!--Requisito 9-->
         <option value="Gitnória" id='gitnoria-house'>Gitnória</option>
@@ -40,6 +40,11 @@
         <option value="Pytherina" id='pytherina-house'>Pytherina</option>
       </select> <!--/Requisito 9-->
       </div> <!--/Requisito 11-->
+
+      <label id="label-family">Qual sua família?</label> <!-- Requisito 12-->
+      <label for="frontend"><input type='radio' id='frontend' name='family' value='Frontend'>Frontend</label>
+      <label for="backend"><input type='radio' id='backend' name='family' value='Backend'>Backend</label>
+      <label for="fullstack"><input type='radio' id='fullstack' name='family' value='FullStack'>FullStack</label>
     </form>
 
     <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
