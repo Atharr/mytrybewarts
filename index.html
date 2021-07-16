@@ -26,15 +26,20 @@
   <main>
     
     <form action="" id="evaluation-form" method="GET">
+      <div id='input-name-and-lastname'> <!--Requisito 10-->
       <input type="text" maxlength="30" placeholder="Nome" id='input-name'> <!--Requisito 8-->
-      <input type="text" maxlength="30" placeholder="Sobrenome" id='input-lastname'> <!--Requisito 8-->
+      <input type="text" maxlength="30" placeholder="Sobrenome" id='input-lastname'> <!--/Requisito 8-->
+      </div>
+      
+      <div id='input-email-and-house'>
       <input type="email" placeholder="Email" id='input-email'>
       <select name="casa" id="casa"> <!--Requisito 9-->
         <option value="Gitnória" id='gitnoria-house'>Gitnória</option>
         <option value="Reactpuff" id='reactpuff-house'>Reactpuff</option>
         <option value="Corvinode" id='corvinode-house'>Corvinode</option>
         <option value="Pytherina" id='pytherina-house'>Pytherina</option>
-      </select> <!--~Requisito 9-->
+      </select> <!--/Requisito 9-->
+      </div> <!--/Requisito 10-->
     </form>
 
     <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
