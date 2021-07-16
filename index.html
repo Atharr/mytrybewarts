@@ -29,11 +29,11 @@
       <div id='input-name-and-lastname'> <!--Requisito 10-->
       <input type="text" maxlength="30" placeholder="Nome" id='input-name'> <!--Requisito 8-->
       <input type="text" maxlength="30" placeholder="Sobrenome" id='input-lastname'> <!--/Requisito 8-->
-      </div>
+      </div> <!--/Requisito 10-->
       
-      <div id='input-email-and-house'>
+      <div id='input-email-and-house'> <!--Requisito 11-->
       <input type="email" placeholder="Email" id='input-email'>
-      <select name="casa" id="casa"> <!--Requisito 9-->
+      <select name="casa" id="house"> <!--Requisito 9-->
         <option value="Gitnória" id='gitnoria-house'>Gitnória</option>
         <option value="Reactpuff" id='reactpuff-house'>Reactpuff</option>
         <option value="Corvinode" id='corvinode-house'>Corvinode</option>
@@ -41,7 +41,15 @@
       </select> <!--/Requisito 9-->
       </div> <!--/Requisito 10-->
 
-      <!--/Requisito 13-->
+      </div> <!--/Requisito 11-->
+
+      <label id="label-family">Qual sua família?</label> <!-- Requisito 12-->
+      <label for="frontend"><input type='radio' id='frontend' name='family' value='Frontend'>Frontend</label>
+      <label for="backend"><input type='radio' id='backend' name='family' value='Backend'>Backend</label>
+      <label for="fullstack"><input type='radio' id='fullstack' name='family' value='FullStack'>FullStack</label>
+    </form>
+
+    <!--/Requisito 13-->
       <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
         <label for="hoFs"><input type="checkbox" id="label-content" value="HoFs">HoFs</label>
         <label for="Jest"><input type="checkbox" id="label-content" value="Jest">Jest</label>
@@ -50,7 +58,6 @@
         <label for="sql"><input type="checkbox" id="label-content" value="SQL">SQL</label>
         <label for="python"><input type="checkbox" id="label-content" value="Python">Python</label>
         
-    </form>
 
     <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
 
