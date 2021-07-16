@@ -1,0 +1,7 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(50, 167, 145);
+  top: 0;
+}
