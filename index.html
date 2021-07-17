@@ -9,7 +9,7 @@
       href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
       integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5"
       crossorigin="anonymous"
-    />    
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
@@ -21,7 +21,36 @@
   <body>
     <!-- Cabeçalho -->
     <header>
-      <img src="images/trybewarts-header-logo.svg" alt="" />
+      <img
+        class="trybewarts-header-logo pure-img"
+        src="images/trybewarts-header-logo.svg"
+        alt="logo da trybe warts"
+        id="header-logo"
+      />
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <div class="forms">
+        <form method="GET" action="" class="trybewarts-login pure-form">
+          <input
+            placeholder="Login"
+            type="email"
+            name="log-in-email"
+            id="log-in-email"
+          />
+          <input
+            placeholder="Senha"
+            type="password"
+            name="log-in-password"
+            id="log-in-password"
+          />
+          <button
+            type="submit"
+            id="log-button"
+            class="pure-button pure-button-primary"
+          >
+            Entre
+          </button>
+        </form>
+      </div>
     </header>
     <!-- Corpo Com Form e Logo -->
     <main class="row">
@@ -31,17 +60,26 @@
           <input type="text" name="name" id="input-name" placeholder="Nome" />
 
           <label for="input-lastname">Sobrenome</label>
-          <input type="text" name="lastName" id="input-lastname" placeholder="Sobrenome"/>
+          <input
+            type="text"
+            name="lastName"
+            id="input-lastname"
+            placeholder="Sobrenome"
+          />
 
           <label for="input-email">Email</label>
-          <input type="email" name="name" id="input-email" placeholder="Email" />
+          <input
+            type="email"
+            name="name"
+            id="input-email"
+            placeholder="Email"
+          />
         </form>
       </div>
 
       <div>
         <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo" />
       </div>
-
     </main>
     <!-- Form -->
     <!-- STRING -->
