@@ -1,8 +1,16 @@
 main {
-  display: flex;
+  display: flex;  
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
 }
+
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;  
 }
