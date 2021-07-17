@@ -34,3 +34,8 @@ main {
 #trybewarts-forms-logo img {
 	height: 500px;
 }
+
+img#trybewarts-forms-logo {
+ height: 400px;
+ width: 400px;
+}
