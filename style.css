@@ -27,13 +27,17 @@ main {
   display: flex;
 }
 
-div .column {
+.column {
+  display: flex;
   flex-direction: column;
+  align-items: left;
+  min-width: 35%;
 }
 
-div .row {
+.row {
   width: 100%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
@@ -42,13 +46,17 @@ label {
   padding: 0 5px;
 }
 
-input {
+.input {
   width: 49%;
 }
 
 select {
   flex-grow: 1;
   flex-shrink: 1;
+}
+
+hr {
+  margin: 10px 0;
 }
 
 #evaluation-form {
@@ -60,4 +68,3 @@ select {
 #trybewarts-forms-logo {
   height: 500px;
 }
-

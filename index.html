@@ -22,11 +22,11 @@
   <main>
     <form id="evaluation-form" action="">
       <div class="row">
-        <input type="text" placeholder="Nome" id="input-name">
-        <input type="text" placeholder="Sobrenome" id="input-lastname">
+        <input class="input" type="text" placeholder="Nome" id="input-name">
+        <input class="input" type="text" placeholder="Sobrenome" id="input-lastname">
       </div>
       <div class="row">
-        <input type="email" placeholder="Email" id="input-email">
+        <input class="input" type="email" placeholder="Email" id="input-email">
         <label for="house">Casa:</label>
         <select name="casas" id="house">
           <option value="Gitnória" id="gitnoria-house">Gitnória</option>
@@ -35,22 +35,45 @@
           <option value="Pytherina" id="pytherina-house">Pytherina</option>
         </select>
       </div>
-      <div class="column">
-        <label for="family" id="label-family">Qual sua família?</label>
-        <div class="row">
-          <input type="radio" name="family" id="frontend" value="Frontend">
-          <label for="frontend">Frontend</label>
+      <hr>
+      <div class="row">
+        <div class="column">
+          <label for="family" id="label-family">Qual sua família?</label>
+          <div>
+            <input type="radio" name="family" id="frontend" value="Frontend">
+            <label for="frontend">Frontend</label>
+          </div>
+          <div>
+            <input type="radio" name="family" id="backend" value="Backend">
+            <label for="backend">Backend</label>
+          </div>
+          <div>
+            <input type="radio" name="family" id="fullstack" value="FullStack">
+            <label for="fullstack">FullStack</label>
+          </div>
         </div>
-        <div class="row">
-          <input type="radio" name="family" id="backend" value="Backend">
-          <label for="backend">Backend</label>
-        </div>
-        <div class="row">
-          <input type="radio" name="family" id="fullstack" value="FullStack">
-          <label for="fullstack">FullStack</label>
+        <div class="column">
+          <label for="content" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+          <div>
+            <input type="checkbox" name="content" id="hofs" value="HoFs">
+            <label for="hofs">HoFs</label>
+            <input type="checkbox" name="content" id="jest" value="Jest">
+            <label for="jest">Jest</label>
+            <input type="checkbox" name="content" id="promises" value="Promises">
+            <label for="promises">Promises</label>
+          </div>
+          <div>
+            <input type="checkbox" name="content" id="react" value="React">
+            <label for="react">React</label>
+            <input type="checkbox" name="content" id="sql" value="SQL">
+            <label for="sql">SQL</label>
+            <input type="checkbox" name="content" id="python" value="Python">
+            <label for="python">Python</label>
+          </div>
         </div>
       </div>
-  </form>
+      <hr>
+    </form>
     <aside> 
       <img src="images/trybewarts-colored.svg" alt="Trybewarts form logo" id="trybewarts-forms-logo">
     </aside>
