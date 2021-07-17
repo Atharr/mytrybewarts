@@ -1,11 +1,11 @@
 .header {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   background-color: rgb(50, 167, 145);
   top: 0;
   justify-content: space-between;
 }
+
 .trybewarts-login {
   display: flex;
   align-items: center;
