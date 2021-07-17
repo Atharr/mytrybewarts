@@ -42,3 +42,8 @@ main {
   height: 400px;
   width: 400px;
 }
+
+.item-flex-input-radio {
+  display: flex;
+  flex-direction: column;
+}
