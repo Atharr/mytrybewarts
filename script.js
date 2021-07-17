@@ -11,7 +11,27 @@ function btnLogin() {
     }
   });
 }
+//https://www.horadecodar.com.br/2020/07/28/como-verificar-se-um-checkbox-esta-checado-c-javascript-ou-jquery/
+function desabilitaBtn () {
+ let btn = document.getElementById("submit-btn")
+ btn.setAttribute("disabled", "disabled")
+}
+
+function habilitaBtn () {
+  document.getElementById("agreement").addEventListener("click", () => {
+    let checkObrigatorio = document.getElementById("agreement")
+    if(checkObrigatorio.checked){
+      let estadoBtn = document.getElementById("submit-btn")
+      estadoBtn.removeAttribute("disabled", "disabled");
+    }else{
+      desabilitaBtn();
+    }
+
+  });
+}
 
 window.onload = () => {
   btnLogin();
+  desabilitaBtn();
+  habilitaBtn ();
 }
