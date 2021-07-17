@@ -68,3 +68,9 @@ hr {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#labelRate {
+  display: flex;
+  justify-content: space-between;
+  justify-content: baseline;
+}
