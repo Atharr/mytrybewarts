@@ -27,6 +27,25 @@ main {
   display: flex;
 }
 
+div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  padding: 0 5px;
+}
+
+input {
+  width: 49%;
+}
+
+select {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
 #evaluation-form {
   display: flex;
   width: 675px;
@@ -37,6 +56,3 @@ main {
   height: 500px;
 }
 
-#house {
-  width: 39%;
-}
