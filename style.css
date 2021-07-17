@@ -22,3 +22,11 @@
 #trybewarts-header-title {
 	color: beige;
 }
+
+#evaluation-form{
+	display: flex;
+	width: 675px;
+}
+main {
+	display: flex;
+}
