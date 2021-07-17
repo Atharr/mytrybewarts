@@ -27,9 +27,14 @@ main {
   display: flex;
 }
 
-div {
+div .column {
+  flex-direction: column;
+}
+
+div .row {
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
