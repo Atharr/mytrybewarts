@@ -4,4 +4,11 @@
   flex-wrap: wrap;
   background-color: rgb(50, 167, 145);
   top: 0;
+  justify-content: space-between;
+}
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
