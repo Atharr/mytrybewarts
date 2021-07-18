@@ -73,3 +73,9 @@ hr {
   display: flex;
   justify-content: space-between;
 }
+
+footer {
+  height: 30px;
+  text-align: center;
+  padding-bottom: 5px;
+}
