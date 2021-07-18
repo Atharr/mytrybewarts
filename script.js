@@ -1,6 +1,3 @@
-const checkBox = document.getElementById('agreement');
-const buttonEnviar = document.getElementById('submit-btn');
-
 // setButtonLoginSubmit(): configura o botão do form de login
 function setButtonLoginSubmit() {
   // obtém o seletor do botão e acrescenta o event listener
@@ -15,18 +12,18 @@ function setButtonLoginSubmit() {
   });
 }
 
-// Marcello, dá uma olhada aqui, não sei o que estou errando. Valeu!
-// function agreementCheck() {
-//   if (checkBox.checked) {
-//     buttonEnviar.disabled = false;
-//   } else {
-//     buttonEnviar.disabled = true;
-//   }
-// }
-// checkBox.addEventListener('click', agreementCheck);
+// setCheckAgreement(): configura o checkbox #agreement para habilitar o botão de submit
+function setCheckAgreement() {
+  // obtém o seletor do checkbox #agreement e acrescenta o event listener
+  document.getElementById('agreement').addEventListener('click', (event) => {
+    // obtém o seletor do botão #submit-btn e habilita-o caso o checkbox esteja selecionado
+    document.getElementById('submit-btn').disabled = !event.target.checked;
+  });
+}
 
 // executa as funções ao carregar a página
 window.onload = () => {
   // configura os event listeners
   setButtonLoginSubmit();
+  setCheckAgreement();
 };

@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+body {
+  background-color: lightgray;
+}
+
 main {
   display: flex;
   padding: 2% 5%;
@@ -67,11 +71,6 @@ hr {
 
 #trybewarts-forms-logo {
   height: 500px;
-}
-
-#labelRate {
-  display: flex;
-  justify-content: space-between;
 }
 
 footer {
