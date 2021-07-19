@@ -1,38 +1,114 @@
 .header {
   display: flex;
-  background-color: rgb(50, 167, 145);
-  min-width: 100px;
+  background-color: rgb(50, 167, 145);  
   min-height: 100px;
-  border: solid 1px;
-  justify-content: space-between;
+  border: solid 1px;  
+  justify-content: space-around;
   align-items: center;
 }
 
-.trybewarts-header-logo {
-  max-width: 100px;
-  max-height: 100px;
+#form1{
+
+    display: flex;
+    flex-flow: row;
+  }
+
+#form1 > input:nth-child(1){
+    border-radius: 8px;
+    height: 30px;
+    width: 140px;    
+  }
+
+  #form1 > input:nth-child(2){
+    border-radius: 8px;
+    height: 30px;
+    width: 140px;
+  }
+
+  .header > img:nth-child(1) {
+    width: 100px;       
+    
 }
 
-.trybewarts-login {
-  display: flex;
+.corpo{
 
-}
-.trybewarts-header-title{
-
-}
-
-#corpo{
     display:flex;
-
+    border: solid 1px;    
+  
 }
 
-.evaluation-form{        
-    display:flex;
-    width: 675px;  
+#evaluation-form{    
+    display:flex;     
     flex-direction: column;
-
+    min-width: 675px; 
+    border: solid 1px;
+    align-items: center;
 }
 
 #trybewarts-forms-logo{
     height: 500px;
+    align-self: flex-end;
+    border: solid 1px;    
 }
+
+.infoPessoal{  
+  padding-left: 30px;  
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.infoPessoal input{  
+    margin: 5px; 
+  
+}
+
+.familia{  
+  display: flex;   
+  min-width: 500px;
+  justify-content: space-around;
+  
+}
+
+hr{
+width: 500px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;   
+  flex-wrap: wrap; 
+ 
+}
+
+.card2{
+  display: flex;   
+  flex-wrap: wrap;
+  max-width: 290px;  
+}
+
+.radio{
+  margin-left: -5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.checkbox{
+  display: flex;
+  margin: 7px 7px 7px -4px; 
+}
+
+.opniao{
+  border:  solid 1px;
+  
+}
+
+.comentarios{
+display: flex;
+flex-direction: column;
+}
+
+#textarea{
+  width: 40ch;
+  height: 10ch;
+}
+
