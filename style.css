@@ -10,13 +10,27 @@ header {
   max-height: 100px;
 }
 
+main {
+  display: flex;  
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.avaliator label {
+  margin-right: 7px;
+}
+
 .forms {
   display: flex;
   flex-direction: row;
   margin-right: 20px;
+  margin-left: 30px;
   align-items: center;
   justify-content: center;
   width: 675px;
+  min-width: 675px;
+  max-width: 675px;
 }
 
 .trybewarts-login {
@@ -27,6 +41,20 @@ header {
   display: flex;
   flex-direction: row;
 }
+
+.familys {
+  display: flex;
+  align-items: baseline;
+}
+
+.avaliator {
+  display: flex;
+  align-items: center;
+}
+
+.submiter {
+  pointer-events: all
+};
 
 #header-logo {
   max-width: 75px;
@@ -47,7 +75,7 @@ header {
 }
 
 #trybewarts-forms-logo {
-  width: 675px; 
+  max-height: 600px;
 }
 
 main {
@@ -55,6 +83,10 @@ main {
   align-items: center;
   align-content: center;
   justify-content: space-around;
+}
+
+.form-container {
+  max-width: 740px;
 }
 
 #evaluation-form {
@@ -72,6 +104,11 @@ main {
 .email {
   display: flex;
   align-items: flex-end;
+}
+
+.rodape {
+  max-height: 100px;
+  align-items: baseline;
 }
 
 #header-logo {

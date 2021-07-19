@@ -26,6 +26,186 @@
       </form>
     </div>
   </header>
+  <!-- Form e Logo -->
+  <main class="row">
+    <form id="evaluation-form" class="forms" action="">
+      <div class="form-container row">
+        <!-- Nome e Sobrenome -->
+        <fieldset class="input-field">
+          <div class="col s12">
+            <div class="col s6">
+              <input type="text" name="input-name" id="input-name" placeholder="Nome">
+            </div>
+            <div class="col s6">
+              <input type="text" name="input-lastname" id="input-lastname" placeholder="Sobrenome">
+            </div>
+          </div>
+        </fieldset>
+        <!-- Email e Casa -->
+        <fieldset class="input-field">
+          <div class="col s12">
+            <div class="col s6">
+              <input type="text" name="input-email" id="input-email" placeholder="Email">
+            </div>
+            <div class="col s6">
+              <select class="browser-default" id="house">
+                <option value="house" id="house-option" disabled selected>Selecione sua Casa</option>
+                <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                <option value="Pytherina" id="pytherina-house">Pytherina</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+        <!-- Family e Content -->
+        <fieldset class="input-field">
+          <div class="col s12 familys">
+            <div class="col s6">
+              <label for="radio-options" id="label-family"><h6>Qual sua família?</h6></label>
+              <p>
+                <label>
+                  <input name="family" type="radio" value="Frontend" checked />
+                  <span>Frontend</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input name="family" type="radio" value="Backend" checked />
+                  <span>Backend</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input name="family" type="radio" value="FullStack" checked />
+                  <span>FullStack</span>
+                </label>
+              </p>
+            </div>
+            <div class="col s6">
+              <label for="" id="label-content"><h6>Qual conteúdo você está com mais vontade de aprender?</h6></label>
+              <div class="col s6">
+                <p>
+                  <label>
+                    <input type="checkbox" value="HoFs"/>
+                    <span>HoFs</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="checkbox" value="Jest"/>
+                    <span>Jest</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="checkbox" value="Promises"/>
+                    <span>Promises</span>
+                  </label>
+                </p>
+              </div>
+              <div class="col s6">
+                <p>
+                  <label>
+                    <input type="checkbox" value="React"/>
+                    <span>React</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="checkbox" value="SQL"/>
+                    <span>SQL</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="checkbox" value="Python"/>
+                    <span>Python</span>
+                  </label>
+                </p>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <!-- Avaliação -->
+        <fieldset class="input-field">
+          <div class="col s10 avaliator">
+            <label for="rate" id="label-rate" class="col s6"><h6>Como você avalia a Trybewarts?</h6></label>
+            <div class="col s6">
+                <p><label class="col s2">
+                    <input name="rate" type="radio" value="1" checked />
+                    <span>1</span>
+                </label></p>
+                <p><label class="col s2">
+                    <input name="rate" type="radio" value="2" checked />
+                    <span>2</span>
+                </label></p>
+                <p><label class="col s2">
+                    <input name="rate" type="radio" value="3" checked />
+                    <span>3</span>
+                </label></p>
+                <p><label class="col s2">
+                    <input name="rate" type="radio" value="4" checked />
+                    <span>4</span>
+                </label></p>
+                <p><label class="col s2">
+                    <input name="rate" type="radio" value="5" checked />
+                    <span>5</span>
+                </label></p>
+                <p><label class="col s2">
+                    <input name="rate" type="radio" value="6" checked />
+                    <span>6</span>
+                </label></p>
+                <p><label class="col s2">
+                    <input name="rate" type="radio" value="7" checked />
+                    <span>7</span>
+                </label></p>
+                <p><label class="col s2">
+                    <input name="rate" type="radio" value="8" checked />
+                    <span>8</span>
+                </label></p>
+                <p><label class="col s2">
+                    <input name="rate" type="radio" value="9" checked />
+                    <span>9</span>
+                </label></p>
+                <p><label class="col s2">
+                  <input name="rate" type="radio" value="10" checked />
+                  <span>10</span>
+              </label></p>
+            </div>
+          </div>
+          <div class="col s12 form-container">
+            <label for="textarea" class="textarea"><h6>Deixe seu comentário:</h6></label>
+            <textarea name="textarea" maxlength="500" data-length="500" id="textarea" cols="30" rows="10"></textarea>
+          </div>
+        </fieldset>
+        <!-- Termos e Condições -->
+        <div>
+          <div class="col s12">
+            <div class="col s8">
+              <p><label id="label-infos">
+                <input type="checkbox" id="agreement"/>
+                <span>Você concorda com o uso das informações acima?</span>
+              </label></p>
+            </div>
+            <div class="col s4">
+              <button class="btn waves-effect waves-light submiter" type="submit" name="action" id="submit-btn" disabled>Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <!-- Imagem do Forms -->
+    <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
+  </main>
+  <!-- Footer -->
+  <footer class="rodape page-footer teal darken-1">
+    <div class="row">
+      <div class="col s12">
+        <h6 class="grey-text text-lighten-4 right">Direitos reservados à Trybewarts©</h6>
+      </div>
+    </div>
+  </footer>
   <!-- Script -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="script.js"></script>
