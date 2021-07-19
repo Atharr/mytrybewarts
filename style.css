@@ -4,13 +4,10 @@
 
 .header {
   display: flex;
-<<<<<<< HEAD
   background-color: rgb(50, 167, 145);  
   min-height: 100px;
-=======
   background-color: rgb(50, 167, 145);     
   max-height: 100px;   
->>>>>>> 57ebe118ead0e05c53dcb019b23d3b6e1e87a8b7
   justify-content: space-between;
   align-items: center;
 }
