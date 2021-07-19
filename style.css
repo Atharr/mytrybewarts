@@ -2,8 +2,7 @@
   display: flex;
   background-color: rgb(50, 167, 145);  
   min-height: 100px;
-  border: solid 1px;  
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
