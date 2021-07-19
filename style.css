@@ -1,9 +1,23 @@
+* {
+  margin: 0px;
+}
+
 .header {
   display: flex;
+<<<<<<< HEAD
   background-color: rgb(50, 167, 145);  
   min-height: 100px;
+=======
+  background-color: rgb(50, 167, 145);     
+  max-height: 100px;   
+>>>>>>> 57ebe118ead0e05c53dcb019b23d3b6e1e87a8b7
   justify-content: space-between;
   align-items: center;
+}
+
+.trybewarts-header-logo{
+  display: flex;
+  max-height: 100px;
 }
 
 #form1{
@@ -64,8 +78,7 @@
 .familia{  
   display: flex;   
   min-width: 500px;
-  justify-content: space-around;
-  
+  justify-content: space-around;  
 }
 
 hr{
@@ -82,7 +95,7 @@ width: 500px;
 .card2{
   display: flex;   
   flex-wrap: wrap;
-  max-width: 290px;  
+  max-width: 250px;  
 }
 
 .radio{
@@ -93,12 +106,11 @@ width: 500px;
 
 .checkbox{
   display: flex;
-  margin: 7px 7px 7px -4px; 
+  margin: 7px 7px; 
 }
 
-.opniao{
-  border:  solid 1px;
-  
+.opniao{   
+  font-size: 14px;
 }
 
 .comentarios{
@@ -107,7 +119,7 @@ flex-direction: column;
 }
 
 #textarea{
-  width: 40ch;
+  width: 60ch;
   height: 10ch;
 }
 
