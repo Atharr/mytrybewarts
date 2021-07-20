@@ -30,8 +30,21 @@ function habilitaBtn() {
   });
 }
 
+function decrementaCaracteres() {
+  let valorText = document.getElementById('label-textarea');
+  let counter = document.getElementById('counter');
+
+  valorText.addEventListener('input', (event) => {
+    let validador = valorText.maxLength - valorText.value.length;
+
+    counter.innerHTML = validador;
+  })
+}
+
 window.onload = () => {
   btnLogin();
   desabilitaBtn();
   habilitaBtn();
+
+  decrementaCaracteres();
 }
