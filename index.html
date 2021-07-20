@@ -15,21 +15,23 @@
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login">
       <button id="login-btn">Login</button>
-      <input type="text" placeholder="Login" id="login-input"></input>
+      <input type="email" placeholder="Login" id="login-input"></input>
       <input type="password" placeholder="Senha" id="pass-input"></input>
     </form>
   </header>
+
   <main>
+
     <form id="evaluation-form">
       <div class="nome-sobren">
-      <label for="input-name"> Nome </label>
-      <input id="input-name" type="text" placeholder="Nome">
-      <label for="input-lastname"> Sobrenome </label>
-      <input id="input-lastname" type="text" placeholder="Sobrenome">
+      <label for="input-name"> Nome: </label>
+      <input id="input-name" type="text" name="Nome" placeholder="Nome">
+      <label for="input-lastname"> Sobrenome: </label>
+      <input id="input-lastname" name="Sobrenome" type="text" placeholder="Sobrenome">
     </div>
     <div class="email-casa">
-      <label for="input-email"> E-mail </label>
-      <input id="input-email" type="text" placeholder="E-mail">
+      <label for="input-email"> E-mail: </label>
+      <input id="input-email" type="text" name="E-mail" placeholder="Email">
       <select id="house">
         <option id="gitnoria-house" value="Gitnória">Gitnória</option>
         <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
@@ -37,11 +39,18 @@
         <option id="pytherina-house" value="Pytherina">Pytherina</option>
       </select>
     </div>
+    <label id="label-family" for=""> Qual sua família?</label>
+    <input type="radio" name="family" value="Frontend"> Frontend
+    <input type="radio" name="family" value="Backend"> Backend
+    <input type="radio" name="family" value="FullStack"> FullStack
+  
+
     </form>
+    
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
   </main>
 
 
 </body>
-
+<script src="script.js"></script>
 </html>
