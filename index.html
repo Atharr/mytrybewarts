@@ -27,7 +27,7 @@
 
     <form action="GET" id="evaluation-form">
       <div class="row g-2">
-        <div class="col-auto">
+        <div class="col-auto mb-1">
           <input type="text" class="form-control" name="nome" id="input-name" placeholder="Nome">
         </div>
         <div class="col-auto">
@@ -36,10 +36,10 @@
       </div>
       <div class="row g-2">
         <div class="col-auto">
-          <input type="emai" name="email" id="input-email" class="form-control" placeholder="Email">
+          <input type="email" name="email" id="input-email" class="form-control" placeholder="Email">
         </div>
         <div class="col-auto">
-          <select name="casa" id="house">
+          <select name="casa" id="house" class="form-select">
             <option value="Gitnória" id="gitnoria-house">Gitnória</option>
             <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
             <option value="Corvinode" id="corvinode-house">Corvinode</option>
@@ -140,6 +140,8 @@
         <label for="10">10</label>
       </div>
     </div>
+    <label for="comentario" class="textarea form-label mt-4">Deixe seu comentário:</label>
+    <textarea name="" id="comentario" cols="30" rows="5" maxlength="500" class="form-control"></textarea>
     </form>
 
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Imagem-da-TrybeWarts">
