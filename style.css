@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 100px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 675px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.email-house {
+  display: flex;
+  flex-direction: row;
+}
+
+#header-logo {
+  max-width: 75px;
+  max-height: 75px;
+}
+
+#trybewarts-header-title {
+  display: flex;
+  margin-top: auto;
+}
+
+#log-in-email {
+  display: inline-flex;
+}
+
+#log-in-password {
+  display: inline-flex;
+}
+
+#trybewarts-forms-logo {
+  width: 675px; 
+}
+
+main {
+  display: flex;  
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.email-house {
+  display: flex;
+  flex-direction: row;
+}
+
+#header-logo {
+  max-width: 75px;
+  max-height: 75px;
+}
+
+#trybewarts-header-title {
+  display: flex;
+  margin-top: auto;
+}
+
+#log-in-email {
+  display: inline-flex;
+}
+
+#log-in-password {
+  display: inline-flex;
+}
+
+#trybewarts-forms-logo {
+  height: 675px;
+}
