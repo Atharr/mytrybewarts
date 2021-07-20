@@ -1,4 +1,4 @@
-function submit() {
+function submitLogin() {
   const button = document.querySelector('#input-button');
 
   button.addEventListener('click', () => {
@@ -11,4 +11,17 @@ function submit() {
       window.alert('Login ou senha inválidos.')
     }
   })
-}submit()
+}
+submitLogin()
+
+function submitForm() {
+  const button2 = document.querySelector('#submit-btn')
+  const checkBox = document.querySelector('#agreement')
+
+  checkBox.addEventListener('click', (event) => {
+    if (checkBox.checked) {
+      button2.disabled = false
+    }
+  })
+}
+submitForm()
