@@ -9,3 +9,13 @@ loginBtn.addEventListener('click', () => {
       alert ('Olá, Tryber!'); 
     }
   });
+
+let btnSubmit = document.getElementById('submit');
+let check = document.getElementById('agreement');
+
+check.addEventListener('click', () => {
+  
+  // if (check) {
+    btnSubmit.toggleAttribute('disabled');
+  //}
+});
