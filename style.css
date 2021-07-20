@@ -7,8 +7,6 @@
   display: flex;
   justify-content: flex-start;
   background-color: rgb(50, 167, 145);
-  justify-content: space-between;
-  align-items: center;
 }
 
 .trybewarts-header-logo {
@@ -38,4 +36,8 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+.purpler {
+  background-color: slateblue;
 }
