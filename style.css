@@ -40,3 +40,11 @@
 .mb-3{
     display:flex;
 }
+#label-family{
+    display:flex;
+    flex-direction: column;
+}
+.tech-family{
+    display: inline-flexbox;
+    flex-direction: row;
+}
