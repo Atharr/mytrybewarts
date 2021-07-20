@@ -23,7 +23,7 @@
     </form>
   </header>
 
-  <main>
+  <main class="d-flex justify-content-evenly my-4">
 
     <form action="GET" id="evaluation-form">
       <div class="row g-2">
@@ -47,19 +47,56 @@
           </select>
         </div>
       </div>
-      <label for="familia" id="label-family">Qual sua família?</label>
-      <div class="form-check">
-        <input type="radio" name="family" id="frontend" class="form-check-input" value="Frontend">
-        <label for="frontend">Família Frontend</label>
+      <hr>
+      <div class="row g-2">
+        <div class="col-auto me-4">
+          <label for="familia" id="label-family" class="mb-2">Qual sua família?</label>
+          <div class="form-check">
+            <input type="radio" name="family" id="frontend" class="form-check-input" value="Frontend">
+            <label for="frontend">Família Frontend</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" name="family" id="backend" class="form-check-input" value="Backend">
+            <label for="backend">Família Backend</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" name="family" id="fullStack" class="form-check-input" value="FullStack">
+            <label for="fullStack">Família FullStack</label>
+          </div>
+        </div>
+        <div class="col-auto">
+          <label for="linguagem" id="label-content"class="mb-2">Qual conteúdo você está com mais vontade de aprender?</label>
+          <div class="row g-3">
+            <div class="form-check col-auto">
+              <input type="checkbox" value="HoFs" id="hofs" class="subject form-check-input">
+              <label for="hofs" class="form-check-label">HoFs</label>
+            </div>
+            <div class="form-check col-auto">
+              <input type="checkbox" value="Jest" id="jest" class="subject form-check-input">
+              <label for="jest" class="form-check-label">Jest</label>
+            </div>
+            <div class="form-check col-auto">
+              <input type="checkbox" value="Promises" id="promises" class="subject form-check-input">
+              <label for="promises" class="form-check-label">Promises</label>
+            </div>
+          </div>
+          <div class="row g-3">
+            <div class="form-check col-auto">
+              <input type="checkbox" value="React" id="react" class="subject form-check-input">
+              <label for="react" class="form-check-label">React</label>
+            </div>
+            <div class="form-check col-auto">
+              <input type="checkbox" value="SQL" id="SQL" class="subject form-check-input">
+              <label for="SQL" class="form-check-label">SQL</label>
+            </div>
+            <div class="form-check col-auto">
+              <input type="checkbox" value="Python" id="python" class="subject form-check-input">
+              <label for="python" class="form-check-label">Python</label>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="form-check">
-        <input type="radio" name="family" id="backend" class="form-check-input" value="Backend">
-        <label for="backend">Família Backend</label>
-      </div>
-      <div class="form-check">
-        <input type="radio" name="family" id="fullStack" class="form-check-input" value="FullStack">
-        <label for="fullStack">Família FullStack</label>
-      </div>
+      <hr>
     </form>
 
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Imagem-da-TrybeWarts">
