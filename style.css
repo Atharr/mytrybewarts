@@ -5,7 +5,21 @@
 
 .header {
   display: flex;
+  justify-content: flex-start;
   background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  height: 80px;
+}
+
+#trybewarts-header-title {
+  font-family: fantasy;
+  font-weight: 600;
+  color: white;
+  margin-top: 4px;
 }
 
 .trybewarts-login {
