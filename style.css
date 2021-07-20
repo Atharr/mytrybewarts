@@ -1,3 +1,4 @@
+
 .header{
     background-color: rgb(50, 167, 145);
     display: flex;
@@ -24,4 +25,18 @@
     display: flex;
     width: 675px;
     flex-direction: column
+}
+#trybewarts-forms-logo {
+    height: 500px;
+}
+.main {
+    display: flex;
+    width: 95%;
+    padding-top: 25px;
+}
+#house {
+    float: right;
+}
+.mb-3{
+    display:flex;
 }
