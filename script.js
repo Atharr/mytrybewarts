@@ -20,8 +20,23 @@ function submitForm() {
 
   checkBox.addEventListener('click', (event) => {
     if (checkBox.checked) {
-      button2.disabled = false
+      button2.disabled = false;
+    }
+    else {
+      button2.disabled = true;
     }
   })
 }
 submitForm()
+
+function counterCharacters() {
+  const counter = document.querySelector('#counter')
+  const textarea = document.querySelector('#textarea')
+
+  textarea.addEventListener('input', (event) => {
+    const remaining = textarea.maxLength - textarea.value.length
+
+    counter.innerHTML = `${remaining} caracteres restantes.`
+  })
+}
+counterCharacters()
