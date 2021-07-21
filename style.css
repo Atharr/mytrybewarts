@@ -10,6 +10,9 @@
 
 .header .form-control {
   width: 178px;
+}
+
+.form-control {
   border-radius: 9px;
 }
 
@@ -47,7 +50,6 @@ main {
 
 main .form-control {
   border: solid rgba(169, 169, 169, 0.58);
-  border-radius: 9px;
 }
 
 .form-select {
