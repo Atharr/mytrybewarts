@@ -1,20 +1,23 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: fantasy;
 }
 
 .header {
-  display: flex;
-  justify-content: flex-start;
   background-color: rgb(50, 167, 145);
 }
 
+.header .form-control {
+  width: 178px;
+  border-radius: 9px;
+}
+
 .trybewarts-header-logo {
-  height: 80px;
+  height: 50px;
 }
 
 #trybewarts-header-title {
-  font-family: fantasy;
   font-weight: 600;
   color: white;
   margin-top: 4px;
@@ -44,11 +47,12 @@ main {
 
 main .form-control {
   border: solid rgba(169, 169, 169, 0.58);
+  border-radius: 9px;
 }
 
 .form-select {
   border: solid rgba(169, 169, 169, 0.58);
-  width: 278px;
+  border-radius: 9px;
 }
 
 .area {
@@ -63,6 +67,9 @@ main .form-control {
 
 footer p {
   font-size: 14px;
-  font-family: fantasy;
   font-weight: 600;
+}
+
+div.col-auto.d-flex.align-items-center {
+  width: 235px;
 }
