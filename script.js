@@ -6,9 +6,31 @@ function submit() {
     const password = document.querySelector('#input-password').value;
 
     if (email === 'tryber@teste.com' && password === '123456') {
-      window.alert('Olá, Tryber!')
+      window.alert('Olá, Tryber!');
     } else {
-      window.alert('Login ou senha inválidos.')
+      window.alert('Login ou senha inválidos.');
     }
-  })
-}submit()
+  });
+}submit();
+
+function submitForm() {
+  const button2 = document.querySelector('#submit-btn');
+  const checkBox = document.querySelector('#agreement');
+  checkBox.addEventListener('click', () => {
+    if (checkBox.checked) {
+      button2.disabled = false;
+    } else {
+      button2.disabled = true;
+    }
+  });
+}submitForm();
+
+function counterCharacters() {
+  const counter = document.querySelector('#counter');
+  const textarea = document.querySelector('#textarea');
+
+  textarea.addEventListener('input', () => {
+    const remaining = textarea.maxLength - textarea.value.length;
+    counter.innerHTML = `${remaining} caracteres restantes.`;
+  });
+} counterCharacters();
