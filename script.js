@@ -6,22 +6,32 @@ function submitLogin() {
     const password = document.querySelector('#input-password').value;
 
     if (email === 'tryber@teste.com' && password === '123456') {
-      window.alert('Olá, Tryber!')
+      window.alert('Olá, Tryber!');
     } else {
-      window.alert('Login ou senha inválidos.')
+      window.alert('Login ou senha inválidos.');
     }
-  })
+  });
 }
-submitLogin()
+submitLogin();
 
 function submitForm() {
-  const button2 = document.querySelector('#submit-btn')
-  const checkBox = document.querySelector('#agreement')
+  const button2 = document.querySelector('#submit-btn');
+  const checkBox = document.querySelector('#agreement');
 
-  checkBox.addEventListener('click', (event) => {
+  checkBox.addEventListener('click', () => {
     if (checkBox.checked) {
-      button2.disabled = false
+      button2.disabled = false;
     }
-  })
+  });
 }
-submitForm()
+submitForm();
+
+const textArea = document.getElementById('textearea');
+
+textArea.addEventListener('keyup', () => {
+  const cont = document.querySelector('#counter');
+  const valormaximo = document.querySelector('#textarea').maxLength;
+  const valorAtual = textArea.value.length;
+  const diminuir = valormaximo - valorAtual;
+  cont.innerHTML = diminuir;
+});

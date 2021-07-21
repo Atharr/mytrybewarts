@@ -3,9 +3,7 @@
 }
 
 .header {
-  display: flex;
-  background-color: rgb(50, 167, 145);  
-  min-height: 100px;
+  display: flex; 
   background-color: rgb(50, 167, 145);     
   max-height: 100px;   
   justify-content: space-between;
@@ -51,15 +49,14 @@
     display:flex;     
     flex-direction: column;
     min-width: 675px; 
-    border: solid 1px;
+   
     align-items: center;
 }
 
 #trybewarts-forms-logo{
     height: 500px;
     align-self: flex-end;
-    border: solid 1px;    
-}
+  }
 
 .infoPessoal{  
   padding-left: 30px;  
