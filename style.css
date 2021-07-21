@@ -44,10 +44,19 @@ main {
 
 main .form-control {
   border: solid rgba(169, 169, 169, 0.58);
-  
 }
 
 .form-select {
   border: solid rgba(169, 169, 169, 0.58);
   width: 278px;
+}
+
+.area{
+  position: relative;
+}
+
+#counter {
+  position: absolute;
+  right: 25px;
+  bottom: 0;  
 }

@@ -30,7 +30,7 @@
         <div class="col-auto mb-1">
           <input type="text" class="form-control" name="nome" id="input-name" placeholder="Nome">
         </div>
-        <div class="col-auto">
+        <div class="col-auto mb-2">
           <input type="text" class="form-control" name="sobrenome" id="input-lastname" placeholder="Sobrenome">
         </div>
       </div>
@@ -65,8 +65,9 @@
           </div>
         </div>
         <div class="col-auto">
-          <label for="linguagem" id="label-content"class="mb-2">Qual conteúdo você está com mais vontade de aprender?</label>
-          <div class="row g-3">
+          <label for="linguagem" id="label-content" class="mb-2">Qual conteúdo você está com mais vontade de
+            aprender?</label>
+          <div class="row g-3 d-flex justify-content-center mb-2">
             <div class="form-check col-auto">
               <input type="checkbox" value="HoFs" id="hofs" class="subject form-check-input">
               <label for="hofs" class="form-check-label">HoFs</label>
@@ -80,7 +81,7 @@
               <label for="promises" class="form-check-label">Promises</label>
             </div>
           </div>
-          <div class="row g-3">
+          <div class="row g-3 d-flex justify-content-center">
             <div class="form-check col-auto">
               <input type="checkbox" value="React" id="react" class="subject form-check-input">
               <label for="react" class="form-check-label">React</label>
@@ -98,51 +99,57 @@
       </div>
       <hr>
       <div class="d-flex">
-      <label for="" id="label-rate" class="me-2">Como você avalia a Trybewarts?</label>
-      <div class="form-check me-2 pe-0">
-        <input type="radio" name="rate" id="1" class="form-check-input" value="1">
-        <label for="1">1</label>
+        <label for="" id="label-rate" class="me-2">Como você avalia a Trybewarts?</label>
+        <div class="form-check me-2 pe-0">
+          <input type="radio" name="rate" id="1" class="form-check-input" value="1">
+          <label for="1">1</label>
+        </div>
+        <div class="form-check me-2 pe-0">
+          <input type="radio" name="rate" id="2" class="form-check-input" value="2">
+          <label for="2">2</label>
+        </div>
+        <div class="form-check me-2 pe-0">
+          <input type="radio" name="rate" id="3" class="form-check-input" value="3">
+          <label for="3">3</label>
+        </div>
+        <div class="form-check me-2 pe-0">
+          <input type="radio" name="rate" id="4" class="form-check-input" value="4">
+          <label for="4">4</label>
+        </div>
+        <div class="form-check me-2 pe-0">
+          <input type="radio" name="rate" id="5" class="form-check-input" value="5">
+          <label for="5">5</label>
+        </div>
+        <div class="form-check me-2 pe-0">
+          <input type="radio" name="rate" id="6" class="form-check-input" value="6">
+          <label for="6">6</label>
+        </div>
+        <div class="form-check me-2 pe-0">
+          <input type="radio" name="rate" id="7" class="form-check-input" value="7">
+          <label for="7">7</label>
+        </div>
+        <div class="form-check me-2 pe-0">
+          <input type="radio" name="rate" id="8" class="form-check-input" value="8">
+          <label for="8">8</label>
+        </div>
+        <div class="form-check me-2 pe-0">
+          <input type="radio" name="rate" id="9" class="form-check-input" value="9">
+          <label for="9">9</label>
+        </div>
+        <div class="form-check me-2 pe-0">
+          <input type="radio" name="rate" id="10" class="form-check-input" value="10">
+          <label for="10">10</label>
+        </div>
       </div>
-      <div class="form-check me-2 pe-0">
-        <input type="radio" name="rate" id="2" class="form-check-input" value="2">
-        <label for="2">2</label>
+      <div class="area">
+        <label for="comentario" class="textarea form-label mt-4">Deixe seu comentário:</label>
+        <textarea name="" id="comentario" cols="30" rows="5" maxlength="500" class="form-control"></textarea>
+        <p id="counter">500</p>
       </div>
-      <div class="form-check me-2 pe-0">
-        <input type="radio" name="rate" id="3" class="form-check-input" value="3">
-        <label for="3">3</label>
+      <div class="form-check mt-2">
+        <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
+        <input type="checkbox" name="" id="agreement" class="form-check-input">
       </div>
-      <div class="form-check me-2 pe-0">
-        <input type="radio" name="rate" id="4" class="form-check-input" value="4">
-        <label for="4">4</label>
-      </div>
-      <div class="form-check me-2 pe-0">
-        <input type="radio" name="rate" id="5" class="form-check-input" value="5">
-        <label for="5">5</label>
-      </div>
-      <div class="form-check me-2 pe-0">
-        <input type="radio" name="rate" id="6" class="form-check-input" value="6">
-        <label for="6">6</label>
-      </div>
-      <div class="form-check me-2 pe-0">
-        <input type="radio" name="rate" id="7" class="form-check-input" value="7">
-        <label for="7">7</label>
-      </div>
-      <div class="form-check me-2 pe-0">
-        <input type="radio" name="rate" id="8" class="form-check-input" value="8">
-        <label for="8">8</label>
-      </div>
-      <div class="form-check me-2 pe-0">
-        <input type="radio" name="rate" id="9" class="form-check-input" value="9">
-        <label for="9">9</label>
-      </div>
-      <div class="form-check me-2 pe-0">
-        <input type="radio" name="rate" id="10" class="form-check-input" value="10">
-        <label for="10">10</label>
-      </div>
-    </div>
-    <label for="comentario" class="textarea form-label mt-4">Deixe seu comentário:</label>
-    <textarea name="" id="comentario" cols="30" rows="5" maxlength="500" class="form-control"></textarea>
-    <p id="counter">500</p>
     </form>
 
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Imagem-da-TrybeWarts">

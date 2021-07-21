@@ -11,16 +11,15 @@ function addEvent() {
   });
 }
 function addEvent1() {
-  document.getElementById("comentario").addEventListener('input', () => {
-    let b = 500 - document.getElementById("comentario").value.length
+  document.getElementById('comentario').addEventListener('input', () => {
+    const b = 500 - document.getElementById('comentario').value.length;
     if (b >= 0) {
-      document.getElementById("counter").innerText = b
+      document.getElementById('counter').innerText = b;
     }
-  })
+  });
 }
 
 window.onload = () => {
-  addEvent()
-  addEvent1()
-}
-
+  addEvent();
+  addEvent1();
+};
