@@ -10,6 +10,7 @@ function addEvent() {
     }
   });
 }
+
 function addEvent1() {
   document.getElementById('textarea').addEventListener('input', () => {
     const b = 500 - document.getElementById('textarea').value.length;
@@ -19,7 +20,16 @@ function addEvent1() {
   });
 }
 
+function addEvent2() {
+  document.getElementById('agreement').addEventListener('click', () => {
+    if (document.getElementById('agreement').checked) {
+      document.getElementById('submit-btn').disabled = false;
+    } else document.getElementById('submit-btn').disabled = true;
+  });
+}
+
 window.onload = () => {
   addEvent();
   addEvent1();
+  addEvent2();
 };
