@@ -26,12 +26,13 @@ function submitForm() {
 }
 submitForm();
 
-const textArea = document.getElementById('textearea');
+const textArea = document.querySelector('#textarea');
 
 textArea.addEventListener('keyup', () => {
   const cont = document.querySelector('#counter');
   const valormaximo = document.querySelector('#textarea').maxLength;
   const valorAtual = textArea.value.length;
   const diminuir = valormaximo - valorAtual;
+
   cont.innerHTML = diminuir;
 });
