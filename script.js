@@ -21,5 +21,6 @@ function addEvent1() {
 
 window.onload = () => {
   addEvent()
+  addEvent1()
 }
 
