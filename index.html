@@ -26,7 +26,7 @@
   <main class="d-flex justify-content-evenly my-4">
 
     <form action="GET" id="evaluation-form">
-      <div class="row g-2">
+      <div class="row g-2 d-flex justify-content-center">
         <div class="col-auto mb-1">
           <input type="text" class="form-control" name="nome" id="input-name" placeholder="Nome">
         </div>
@@ -34,7 +34,7 @@
           <input type="text" class="form-control" name="sobrenome" id="input-lastname" placeholder="Sobrenome">
         </div>
       </div>
-      <div class="row g-2">
+      <div class="row g-2 d-flex justify-content-center">
         <div class="col-auto">
           <input type="email" name="email" id="input-email" class="form-control" placeholder="Email">
         </div>
@@ -48,7 +48,7 @@
         </div>
       </div>
       <hr>
-      <div class="row g-2">
+      <div class="row g-2 d-flex justify-content-center">
         <div class="col-auto me-4">
           <label for="familia" id="label-family" class="mb-2">Qual sua família?</label>
           <div class="form-check">
@@ -142,6 +142,7 @@
     </div>
     <label for="comentario" class="textarea form-label mt-4">Deixe seu comentário:</label>
     <textarea name="" id="comentario" cols="30" rows="5" maxlength="500" class="form-control"></textarea>
+    <p id="counter">500</p>
     </form>
 
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Imagem-da-TrybeWarts">

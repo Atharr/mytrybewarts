@@ -44,6 +44,7 @@ main {
 
 main .form-control {
   border: solid rgba(169, 169, 169, 0.58);
+  
 }
 
 .form-select {
