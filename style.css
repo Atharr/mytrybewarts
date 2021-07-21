@@ -60,3 +60,9 @@ main .form-control {
   right: 25px;
   bottom: 0;
 }
+
+footer p {
+  font-size: 14px;
+  font-family: fantasy;
+  font-weight: 600;
+}
