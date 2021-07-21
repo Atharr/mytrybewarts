@@ -8,7 +8,7 @@
   background-color: rgb(50, 167, 145);
 }
 
-.header .form-control {
+.header input {
   width: 178px;
   border: none;
 }
