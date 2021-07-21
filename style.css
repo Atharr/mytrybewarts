@@ -10,10 +10,12 @@
 
 .header .form-control {
   width: 178px;
+  border: none;
 }
 
 .form-control {
   border-radius: 9px;
+  border: solid rgba(169, 169, 169, 0.58);
 }
 
 .trybewarts-header-logo {
@@ -46,10 +48,6 @@ main {
 
 .purpler {
   background-color: slateblue;
-}
-
-main .form-control {
-  border: solid rgba(169, 169, 169, 0.58);
 }
 
 .form-select {
