@@ -51,12 +51,12 @@ main .form-control {
   width: 278px;
 }
 
-.area{
+.area {
   position: relative;
 }
 
 #counter {
   position: absolute;
   right: 25px;
-  bottom: 0;  
+  bottom: 0;
 }

@@ -142,14 +142,15 @@
         </div>
       </div>
       <div class="area">
-        <label for="comentario" class="textarea form-label mt-4">Deixe seu comentário:</label>
-        <textarea name="" id="comentario" cols="30" rows="5" maxlength="500" class="form-control"></textarea>
+        <label for="textarea" class="textarea form-label mt-4">Deixe seu comentário:</label>
+        <textarea name="" id="textarea" cols="30" rows="5" maxlength="500" class="form-control"></textarea>
         <p id="counter">500</p>
       </div>
       <div class="form-check mt-2">
         <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
-        <input type="checkbox" name="" id="agreement" class="form-check-input">
+        <input type="checkbox" name="" id="agreement" class="form-check-input" required>
       </div>
+      <button type="submit" id="submit-btn" class="btn btn-primary purpler mt-1" disabled>Enviar</button>
     </form>
 
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Imagem-da-TrybeWarts">
