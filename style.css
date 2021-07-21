@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(50, 167, 145);
+  max-height: 125px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.trybewarts-header-logo {
+  display: flex;
+  max-height: 125px;
+}
+
+#trybewarts-header-title {
+  display: flex;
+  justify-content: center;
+}
+
+.trybewarts-login {
+  display: flex;
+  min-height: 75px;
+}
+
+#evaluation-form {
+  /* formulário do corpo */
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  /* alinha o eixo principal para o eixo vertical */
+}
+
+main {
+  display: flex;
+}
+
+#trybewarts-forms-logo {
+  /* logo da TrybeWarts */
+  display: flex;
+  height: 500px;
+}
+
+.login-input {
+  margin-left: 10px;
+}
+
+#evaluation-form{
+    display: flex;
+}
+
+.nome-sobren {
+    display: flex;
+}
+
+.email-casa {
+    display: flex;
+}
