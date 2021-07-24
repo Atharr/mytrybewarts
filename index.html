@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="">
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+        <form class="trybewarts-login">
+            <div class="mb-3">
+                <input id="email" type="email" name='email' placeholder="Login">
+                <input id="password" type="password" name='password' placeholder="Senha">
+                <button id="button" type="submit">Enviar</button>
+            </div>
+        </form>
+    </header>
+
+    <main class="main">
+        <form id='evaluation-form'>
+            <div class="mb-3">
+                <input placeholder="Nome" id="input-name" type="text">
+                <input placeholder="Sobrenome" id="input-lastname" type="text">
+            </div>
+            <div class="mb-3">
+                <input placeholder="Email" id="input-email" type="email">
+                <div>
+                    <label>Casa:</label>
+                    <select aria-label="Default select example" name="" id="house">
+                        <option id="house">House</option>
+                        <option id="gitnoria-house">Gitnória</option>
+                        <option id="reactpuff-house">Reactpuff</option>
+                        <option id="corvinode-house">Corvinode</option>
+                        <option id="pytherina-house">Pytherina</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+        <div>
+            <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
+        </div>
+    </main>
+    <label id="label-family">
+        Qual sua família?
+        <input type="radio" name="family" value="Frontend">Frontend
+        <input type="radio" name="family" value="Backend">Backend
+        <input type="radio" name="family" value="FullStack">Fullstack
+    </label>
+    <script src="script.js"></script>
+</body>
+
+</html>
